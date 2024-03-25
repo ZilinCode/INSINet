@@ -9,7 +9,7 @@ Thanks for their excellent works!
 # Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{xie2024gan,
+@article{xie2024an,
   title={An Integrated Neighborhood and Scale Information Network for Open-Pit Mine Change Detection in High-Resolution Remote Sensing Images},
   author={Zilin Xie, Kangning Li, Jinbao Jiang, Jinzhong Yang, Xiaojun Qiao, Deshuai Yuan, and Cheng Nie},
   journal={arXiv preprint arXiv:2403.15032}, 
