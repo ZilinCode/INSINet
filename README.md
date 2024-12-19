@@ -13,6 +13,7 @@ label.tif for the ground truth (binary mask indicating change or no-change).
 Example dataset "part_of_WHU.rar" constructed based on [the WHU change detection dataset](https://gpcv.whu.edu.cn/data/building_dataset.html) can be unzipped and used for format reference.
 
 Organize the dataset into the following structure:
+```
 /data
   /dataset_name
     /train
@@ -32,6 +33,7 @@ Organize the dataset into the following structure:
         B_Neighbor.tif
       /<sample2>
       ...
+```
 # Training the Model
 1. Prepare the Dataset
 Make sure your dataset is structured as described above and adjust the dataset_path variable in the training script to point to your training data folder.
