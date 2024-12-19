@@ -35,21 +35,21 @@ Organize the dataset into the following structure:
       ...
 ```
 # Training the Model
-1. Prepare the Dataset
+1. Prepare the Dataset.
 Make sure your dataset is structured as described above and adjust the dataset_path variable in the training script to point to your training data folder.
-2. Training Script
+2. Training Script.
 To train the INSINet model, run the following command:
 python train.py
-3. Model Output
+3. Model Output.
 At the end of training, the model's parameters will be saved in the ./model_parameter folder. You can use this saved model for inference.
 # Testing the Model
-1. Prepare the Dataset
+1. Prepare the Dataset.
 Make sure your dataset is structured as described above and adjust the dataset_path variable in the testing script to point to your testing data folder.
-2. Testing Script
+2. Testing Script.
 To test the trained model on the test dataset, run the following command:
 python test.py
 Note: The test.py script loads the pre-trained model from ./model_parameter/final_model.pth. You can select the appropriate pre-trained model parameters as input.
-3. Model Output
+3. Model Output.
 The model's predictions are saved as .tif files in the ./result/ folder, with each file named after the input image.
 # Acknowledgments
 The code of "MobileNet_v3" is based upon [a re-implementation](https://github.com/yichaojie/MobileNetV3) for the paper ["Searching for MobileNetV3"](https://arxiv.org/abs/1905.02244).
