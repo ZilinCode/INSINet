@@ -1,4 +1,4 @@
-
+# Auxiliary code for INSINet
 
 from torch import nn
 import torch
@@ -17,7 +17,7 @@ class Up_inner(nn.Module):
         return x
 
 
-
+# Combine upsampling and deep supervision with attention mechanism, used for MDSA module
 class Up_and_Deep_Supervision_Attention(nn.Module):
     def __init__(self, ch_in, ch_out,):
         super().__init__()        
@@ -32,7 +32,7 @@ class Up_and_Deep_Supervision_Attention(nn.Module):
 
 
 
-
+# Time Fusion (TF) modules
 class Time_Fusion(nn.Module):
     def __init__(self, ch_in, ch_out,):
         super().__init__()   
@@ -68,6 +68,7 @@ class Multi_Scale_Aggregation_inner(nn.Module):
         out = self.conv(torch.cat([x, y1, y2], dim=1))
         return out
 
+# Multi-scale aggregation (MSA) module 
 class Multi_Scale_Aggregation(nn.Module):
     def __init__(self, ch_in, ch_out=2, ):
         super().__init__()
@@ -94,7 +95,7 @@ class Multi_Scale_Aggregation(nn.Module):
 
 
 
-
+# The last layer generates its prediction.
 class Predicted_Map_for_Main_Path(nn.Module):   
     def __init__(self, ch_in, ch_out=1,):
         super().__init__()         
@@ -127,6 +128,7 @@ class TF_Enhance_Encoder(nn.Module):
         x = x + x2
         return x
 
+# Time Fusion (TF) modules and used for feature enhancing
 class Time_Fusion_and_Enhance_Encoder(nn.Module):
     def __init__(self, ch_in):
         super().__init__()
@@ -170,6 +172,7 @@ class NeighborImg_Core(nn.Module):
         img_Neighbor_core=img_Neighbor[: , : , w1:w2, w1:w2]
         return img_Neighbor_core
 
+# Center-Neighborhood Fusion (CNF) module.
 class Center_Neighborhood_Fusion(nn.Module):
     def __init__(self, ch_in, fout):
         super().__init__()

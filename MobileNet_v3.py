@@ -1,3 +1,6 @@
+# Auxiliary code for INSINet
+# Code Related to MobileNet_v3 in INSINet
+
 
 import torch
 import torch.nn as nn
