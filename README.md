@@ -1,9 +1,9 @@
 # INSINet
 An Integrated Neighborhood and Scale Information Network for Open-Pit Mine Change Detection in High-Resolution Remote Sensing Images.
 # Requirement
-Python 3.8
-Pytorch 1.10
-PIL (Pillow)
+- Python 3.8
+- Pytorch 1.10
+- PIL (Pillow)
 # Dataset
 The dataset should consist of pairs of images (before and after) in TIFF format, with each pair containing:
 A.tif and B.tif for the before and after images, respectively.
