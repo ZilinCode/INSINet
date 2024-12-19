@@ -53,7 +53,7 @@ Note: The test.py script loads the pre-trained model from ./model_parameter/fina
 The model's predictions are saved as .tif files in the ./result/ folder, with each file named after the input image.
 # Acknowledgments
 The code of "MobileNet_v3" is based upon [a re-implementation](https://github.com/yichaojie/MobileNetV3) for the paper ["Searching for MobileNetV3"](https://arxiv.org/abs/1905.02244).
-The example dataset "part_of_WHU.rar" constructed based on [the WHU change detection dataset](https://gpcv.whu.edu.cn/data/building_dataset.html)..
+The example dataset "part_of_WHU.rar" constructed based on [the WHU change detection dataset](https://gpcv.whu.edu.cn/data/building_dataset.html).
 Thanks for their excellent works!
 # Citation
 If you use this code for your research, please cite our paper.
