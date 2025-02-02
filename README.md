@@ -69,11 +69,14 @@ Thanks for their excellent works!
 # Citation
 If you use this code for your research, please cite our paper.
 ```
-@article{xie2024an,
-  title={An Integrated Neighborhood and Scale Information Network for Open-Pit Mine Change Detection in High-Resolution Remote Sensing Images},
-  author={Zilin Xie, Kangning Li, Jinbao Jiang, Jinzhong Yang, Xiaojun Qiao, Deshuai Yuan, and Cheng Nie},
-  journal={arXiv preprint arXiv:2403.15032}, 
-  pages={1-39},
-  year={2024}
+@article{XIE2025105880,
+  title = {An Integrated Neighborhood and Scale Information Network for Open-Pit Mine Change Detection in High-Resolution Remote Sensing Images},
+  journal = {Computers & Geosciences},
+  pages = {105880},
+  year = {2025},
+  issn = {0098-3004},
+  doi = {https://doi.org/10.1016/j.cageo.2025.105880},
+  url = {https://www.sciencedirect.com/science/article/pii/S0098300425000305},
+  author = {Zilin Xie and Kangning Li and Jinbao Jiang and Jinzhong Yang and Xiaojun Qiao and Deshuai Yuan and Cheng Nie},
 }
 ```
